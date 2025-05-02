@@ -950,7 +950,8 @@ footer{
     text-align: center;
     margin-bottom: 20px;
   }
-  .title p{padding-top: 5px; font-size: var(--font-xlarge);}
+  .title h2{font-size: var(--font-xxlarge)}
+  .title p{padding-top: 5px; font-size: var(--font-large);}
   .cardNews_wrap{
     width: 100%;
     height: auto;
@@ -1052,15 +1053,15 @@ footer{
   .work_icon:nth-child(3)>div{background-position: 0 -246px;}
   .work_icon:nth-child(4)>div{background-position: -150px -248px;}
   /* 발간자료 */
-  .pageSwiper .swiper-slide{width: 150px; }
-  .pageSwiper .swiper-wrapper{ padding-top: 10px; }
+  .pageSwiper .swiper-slide{width: 150px;}
+  .pageSwiper .swiper-wrapper{ padding-top: 10px;}
   .page_top{
     margin-top: 150px;
     display: flex;
     flex-direction: column;
   }
   .page_menu_wrap ul li a{padding: 17px 45px 17px 45px;}
-  .pageSwiper{width: 80%; margin: 0 auto;}
+  .pageSwiper{width: 80%; margin: 0 auto; padding-bottom: 20px;}
   .page .swiper_wrap{
     margin-left: -50px;
     width: 110%;
