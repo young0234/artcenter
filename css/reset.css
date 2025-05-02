@@ -1,0 +1,61 @@
+/* ===========reset=========== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	color: var(--dim-black);
+	margin: 0;
+	border: 0;
+	vertical-align: baseline;
+  font-size: 100%;
+  font-weight: normal;
+	font-size: var(--font-medium);
+	scroll-behavior: smooth;
+}
+body {
+	line-height: 1;
+  box-sizing: border-box;
+	font-size: var(--font-medium);
+}
+ol, ul, li{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: var(--font-medium);
+}
+a, button{
+  text-decoration: none;
+  color: var(--dim-black);
+  cursor: pointer;
+	font-size: var(--font-medium);
+}
+@font-face {
+	font-family: 'Electrical-Safety';
+	src: url(../font/Electrical\ Safety\ Regular.ttf);
+}
+@font-face {
+	font-family: 'IBMPlexSansKR-light';
+	src: url(../font/IBMPlexSansKR-Light.ttf);
+}
+
+h1,h2,h3,h4,h5{
+	font-family: 'Electrical-Safety';
+}
+body, a, button{
+	font-family: 'IBMPlexSansKR-light';
+}
+h1{font-size: var(--font-mega);}
+h2{font-size: var(--font-xxlarge);}
+h3{font-size: var(--font-xlarge);}
+h4{font-size: var(--font-large);}
+h5{font-size: var(--font-midlarge);}
+
