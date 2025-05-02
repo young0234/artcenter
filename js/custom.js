@@ -172,17 +172,28 @@ function updateDisplay() {
   document.querySelector('.time_text').textContent =
     `현재 시각: ${hours}:${minutes}:${seconds}`;
 };
-/* 탑버튼 */
 setInterval(updateDisplay, 1000);
 updateDisplay();
+/* 탑버튼 */
 let scrollBtn = document.getElementById("scrollTopBtn");
-  window.addEventListener("scroll", function () {
-    if (window.scrollY > 300) {
-      scrollBtn.style.display = "block";
-    } else {
-      scrollBtn.style.display = "none";
-    }
-  });
+let mediaQuery = window.matchMedia("(max-width: 768px)");
+function handleScrollEvent() {
+  if (window.scrollY > 300) {
+    scrollBtn.style.display = "block";  
+  } else {
+    scrollBtn.style.display = "none";   
+  }
+}
+function setupScrollListener() {
+  if (mediaQuery.matches) {
+    window.addEventListener("scroll", handleScrollEvent);
+  } else {
+    window.removeEventListener("scroll", handleScrollEvent);
+    scrollBtn.style.display = "none";
+  }
+}
+mediaQuery.addListener(setupScrollListener);
+setupScrollListener();
 /* 전체 메뉴바 */
 let menuIcon = document.querySelector('.menu_icon');
 let accordionMenu = document.querySelector('.accordion');

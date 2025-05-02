@@ -823,7 +823,7 @@ footer{
 .qmenu_call{margin-top: 15px;}
 .qna{display: flex; justify-content: center;}
 .top_btn1{margin-top: 15px;}
-.top_btn2{display: none !important;}
+.top_btn2{display: none;}
 /* 반응형구간 */
 @media (max-width:768px) {
   /* 상단 메뉴바 */
@@ -1175,12 +1175,13 @@ footer{
       margin-top: 10px;
     }
   /* 탑버튼 */
-  .qMenu{display: none;}
-  .top_btn2{
+  .qMenu {display: none;}
+  .top_btn2 {
+    position: fixed;
     right: 10px;
     bottom: 10px;
-    position: fixed;
-    display: none;
+    display: none; /* 기본적으로 숨김 */
+    z-index: 1000;
   }
 }
 }
