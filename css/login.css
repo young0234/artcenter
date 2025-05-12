@@ -1,0 +1,192 @@
+.login{
+  width: 65%;
+  margin: auto;
+}
+.breadcrumb{
+  border-bottom: 1px solid var(--gray);
+  height: 60px;
+  line-height: 70px;
+}
+.breadcrumb i{}
+.breadcrumb span{}
+.logins{display: flex;}
+.membership{
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--gray);
+  padding: 10px;
+  margin-top: 20px;
+  height: 660px;
+}
+.membership ul{}
+.membership ul h4{
+  padding: 20px 5px;
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 1px solid var(--gray);
+}
+.membership ul li{
+  margin-top: 10px;
+}
+.membership ul li a{
+  position: relative;
+  padding: 20px 5px;
+  display: block;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.membership ul li a:hover{
+  color:  var(--main-green);
+  font-weight: bold;
+}
+.membership ul li a::before{
+  content: '';
+  position: absolute;
+  top: 50%; 
+  left: 0;
+  width: 4px;
+  height: 0;
+  background-color: var(--main-green);
+  transition: height 0.4s ease, top 0.4s ease;
+}
+.membership ul li:hover a::before{
+  height: 100%;
+  top: 0;
+}
+.logged{
+  padding: 2.8rem;
+}
+.logged h2{
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.customers{
+  display: flex;
+  gap: 2rem;
+}
+.customers img{
+  flex: 1;
+  box-shadow: 0 0 10px var(--gray);
+  border-radius: 20px 0 0 20px;
+}
+.explan{
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.welcome_text{
+  flex: 1;
+}
+.welcome_text h3{
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.welcome_text span{
+  font-size: 18px;
+  line-height: 25px;
+}
+.enter_login{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.enter_login h3{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.enter_login span{
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.enter_login input{
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--gray);
+}
+.save {
+  display: flex;
+  align-items: center;
+}
+.save input[type="checkbox"] {
+  margin-right: 10px; 
+  transform: scale(1.3) translateY(2px);
+}
+.save label {
+  font-size: 16px;
+  cursor: pointer;
+}
+.save input[type="checkbox"]:checked + label {
+  font-weight: bold;
+}
+.already{
+  border-top: 1px solid var(--gray);
+  padding: 15px 3px 0 3px;
+  margin: 10px 0;
+  justify-content: space-between;
+  display: flex;
+}
+.already a:hover{
+  color: var(--grass-green);
+  font-weight: bold;
+}
+.enter_login button{
+  padding: 10px;
+  font-size: 20px;
+  background-color: var(--main-green);
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+.enter_login button:hover{
+  background-color: var(--grass-green);
+}
+.non_member{
+  border-top: 1px solid var(--gray);
+  padding-top: 20px;
+  flex: 1;
+}
+.non_member h4{
+  font-size: 25px;
+  margin: 8px 0;
+}
+.non_member span{}
+.non_member_buttons{
+  display: flex;
+  gap: 1rem;
+}
+.non_member_buttons button{
+  flex: 1;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+}
+.non_member_buttons button:hover{
+  background-color: var(--grass-green);
+  color: white;
+}
+.non_member_buttons button:hover i{
+  color: #fff;
+}
+footer{
+    margin-top: 50px;
+}
+@media (max-width:768px) {
+  .login{width: 90%;}
+  .membership{display: none;}
+  .customers img{display: none;}
+  .logged{
+    padding: 2rem 1rem;
+  }
+  .logged h2{
+    border-bottom: 1px solid var(--gray); 
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,113 @@
+.notice_list{
+  padding: 1.8rem  0 0 2.8rem;
+}
+.notice_list h2{
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+#my-table{
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+}
+tbody > tr td:nth-child(1),
+tbody > tr td:nth-child(2),
+tbody > tr td:nth-child(5),
+tbody > tr td:nth-child(6){
+  width: 50px;
+}
+tbody > tr td:nth-child(4){
+  width: 120px;
+}
+tbody > tr td:nth-child(2) span{
+  box-shadow: 0 0 2px gray;
+  color: rgb(105, 128, 155);
+  padding: 2px 6px;
+}
+tbody > tr td:nth-child(2) p{
+  box-shadow: 0 0 2px gray;
+  padding:  6px 0;
+}
+.ellipsis {
+  width: 100%;
+  max-width: 500px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+tr > td:nth-child(4){
+  width: 90px;
+  overflow: hidden;
+}
+th{
+  background-color: var(--main-green);
+  color: var(--white);
+  font-weight: bold;
+  padding: 18px 0;
+  font-size: 18px;
+}
+th, td{
+  text-align: center;
+  padding: 0.92rem 1rem;
+}
+td{border-bottom: 1px solid rgb(175, 175, 175); cursor: pointer;}
+td:nth-child(3):hover{font-weight: bold;}
+.pagination{
+  margin-top: 10px;
+  color: var(--dim-black);
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgb(177, 199, 177);
+  border-bottom: 1px solid rgb(177, 199, 177);
+}
+.pagination i{
+  color: var(--dim-black);
+}
+#numbers{
+  display: flex;
+  margin: 0 2rem;
+}
+#numbers li{list-style: none;}
+#numbers li a{
+  color: var(--dim-black); 
+  text-decoration: none;
+  opacity: 0.7;
+  padding: 0.5rem 1rem;
+}
+#numbers li a:hover{opacity: 1;}
+#numbers li a.active{
+  opacity: 1;
+  background-color: var(--white);
+  color: #333;
+  font-weight: bold;
+}
+@media (max-width:768px) {
+  .logins {width: 100%;}
+  .notice_list{
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  .ellipsis {
+    width: 100%;
+    max-width: 210px;
+  }
+  tbody > tr td:nth-child(2) span{
+    padding: 0 2.5px;
+  }
+  tbody > tr td:nth-child(2) p{
+    padding:  3px 0;
+  }
+  tbody > tr td:nth-child(4){
+    width: 130px;
+    font-size: 14px;
+  }
+  td{font-size: 14px;}
+  th, td{
+    text-align: center;
+    padding: 1rem 0.5rem;
+  }
+}
