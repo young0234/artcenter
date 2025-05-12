@@ -36,7 +36,6 @@ document.querySelector('.main_menu').addEventListener('mouseleave', function () 
     sub.style.display = 'none';
   });
 });
-
 /* 뉴스 탭 */
 let tabButtons = document.querySelectorAll('.tab_btn');
 let tabContents = document.querySelectorAll('.tab_content');
@@ -123,8 +122,8 @@ var swiper = new Swiper(".pageSwiper", {
       spaceBetween: 10,  
     },
     1024: {
-      slidesPerView: 5, // 데스크탑에서 5개 슬라이드
-      spaceBetween: 30, // 기본 간격
+      slidesPerView: 5, 
+      spaceBetween: 30, 
     }
   },
 })
