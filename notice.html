@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>알림/소식 > 공지사항</title>
+  <!-- 파비콘 -->
+  <link rel="icon" href="images/miniLogo.png">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- 폰트어썸 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/root.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/notice.css">
+</head>
+<body>
+  <!-- 상단 메뉴바 -->
+  <header>
+    <a href="index.html" class="logo">
+      <img src="images/Logo.jpg" alt="">
+    </a>
+    <nav class="main_menu">
+      <ul>
+        <li class="menu_item" data-target="about">기관소개</li>
+        <li class="menu_item" data-target="news">알림/소식</li>
+        <li class="menu_item" data-target="aply">지원/신청</li>
+        <li class="menu_item" data-target="work">사업안내</li>
+        <li class="menu_item" data-target="page">자료공간</li>
+        <li class="menu_item" data-target="open">정보공개</li>
+      </ul>
+    </nav>
+    <div class="header_icons">
+      <span><a href="login.html" target="_blank">로그인</a></span>
+      <span><i class="fa-solid fa-magnifying-glass"></i></span>
+      <span class="menu_icon"><i class="fa-solid fa-bars"></i></span>
+    </div>
+  </header>
+  <!-- 서브메뉴 -->
+  <div class="sub_wrap">
+    <div class="sub_menu" id="about">
+      <div class="side">
+        <img src="images/miniLogo.png" alt="">
+        <div class="side_title">
+          <h2>기관소개</h2>
+          <h5>예술산업의 미래가치를 창출하는 예술경영 전문기관입니다.</h5>
+        </div>
+      </div>
+      <div class="sidemenu_content">
+        <div>
+          <h3>인사말</h3>
+        </div>
+        <div>
+          <h3>연혁</h3>
+        </div>
+        <div>
+          <h3>미션&비전</h3>
+        </div>
+        <div>
+          <h3>조직 및 업무</h3>
+        </div>
+        <div>
+          <h3>윤리경영</h3>
+          <ul>
+            <li>윤리헌장</li>
+            <li>인권경영선언문</li>
+            <li>고객헌장</li>
+            <li>부패·공익신고</li>
+          </ul>
+        </div>
+        <div>
+          <h3>경영공시</h3>
+        </div>
+        <div>
+          <h3>오시는길</h3>
+        </div>
+      </div>
+    </div>
+    <div class="sub_menu" id="news">
+      <div class="side">
+        <img src="../images/miniLogo.png" alt="">
+        <div class="side_title">
+          <h2>알림/소식</h2>
+          <h5>새로운 소식이 준비되어 있습니다.</h5>
+        </div>
+      </div>
+      <div class="sidemenu_content">
+        <div>
+          <h3><a href="notice.html" target="_blank">공지사항</a></h3>
+        </div>
+        <div>
+          <h3>채용정보</h3>
+        </div>
+        <div>
+          <h3>입찰정보</h3>
+        </div>
+        <div>
+          <h3>KAMS NOW</h3>
+        </div>
+        <div>
+          <h3>일자리정보</h3>
+        </div>
+        <div>
+          <h3>공모ㆍ기금ㆍ행사</h3>
+        </div>
+        <div>
+          <h3>뉴스레터</h3>
+        </div>
+      </div>
+    </div>
+    <div class="sub_menu" id="aply">
+      <div class="side">
+        <img src="../images/miniLogo.png" alt="">
+        <div class="side_title">
+          <h2>지원/신청</h2>
+          <h5>사업지원 정보를 빠르게 확인하실 수 있습니다.</h5>
+        </div>
+      </div>
+      <div class="sidemenu_content">
+        <div>
+          <h3>공모사업 안내</h3>
+        </div>
+        <div>
+          <h3>온라인 참가신청</h3>
+        </div>
+        <div>
+          <h3>예술경영컨설팅 신청</h3>
+          <ul>
+            <li>예술경영컨설팅</li>
+            <li>FAQ</li>
+            <li>컨설팅 전문 정보</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="sub_menu" id="work">
+      <div class="side">
+        <img src="../images/miniLogo.png" alt="">
+        <div class="side_title">
+          <h2>사업안내</h2>
+          <h5>진행하는 사업을 소개합니다.</h5>
+        </div>
+      </div>
+      <div class="sidemenu_content">
+        <div>
+          <h3>예술현장 성장기반 조성</h3>
+        </div>
+        <div>
+          <h3>공연시장 활성화 지원</h3>
+        </div>
+        <div>
+          <h3>미술시장 활성화 지원</h3>
+        </div>
+        <div>
+          <h3>아트코리아랩</h3>
+        </div>
+      </div>
+    </div>
+    <div class="sub_menu" id="page">
+      <div class="side">
+        <img src="../images/miniLogo.png" alt="">
+        <div class="side_title">
+          <h2>자료공간</h2>
+          <h5>다양한 자료를 한 눈에 볼 수 있습니다.</h5>
+        </div>
+      </div>
+      <div class="sidemenu_content">
+        <div>
+          <h3>알림/소식</h3>
+        </div>
+        <div>
+          <h3>지원/신청</h3>
+        </div>
+        <div>
+          <h3>사업안내</h3>
+        </div>
+        <div>
+          <h3>자료공간</h3>
+        </div>
+      </div>
+    </div>
+    <div class="sub_menu" id="open">
+      <div class="side">
+        <img src="../images/miniLogo.png" alt="">
+        <div class="side_title">
+          <h2>정보공개</h2>
+          <h5>자세한 정보를 알아가세요.</h5>
+        </div>
+      </div>
+      <div class="sidemenu_content">
+        <div>
+          <h3>정보공개제도</h3>
+        </div>
+        <div>
+          <h3>사전정보공표</h3>
+        </div>
+        <div>
+          <h3>공공데이터개방</h3>
+        </div>
+        <div>
+          <h3>정보공개자료</h3>
+          <ul>
+            <li>업무추진비</li>
+            <li>주요계약현황</li>
+            <li>기부금수령&집행현황</li>
+            <li>상품권 구매사용 현황</li>
+            <li>징계현황</li>
+          </ul>
+        </div>
+        <div>
+          <h3>사업실명제</h3>
+        </div>
+        <div>
+          <h3>
+            고객의 소리</h3>
+        </div>
+      </div>
+    </div>
+    <div class="sub_menu" id="all">
+      <div class="side">
+        <img src="../images/miniLogo.png" alt="">
+        <div class="side_title">
+          <h2>전체메뉴</h2>
+          <h5>한 번에 찾아보세요</h5>
+        </div>
+      </div>
+      <div class="sidemenu_content">
+        <div>
+          <h3>기관소개</h3>
+          <ul>
+            <li>인사말</li>
+            <li>연혁</li>
+            <li>미션&비전</li>
+            <li>조직 및 업무</li>
+            <li>윤리경영</li>
+          </ul>
+        </div>
+        <div>
+          <h3>알림/소식</h3>
+          <ul>
+            <li>공지사항</li>
+            <li>채용정보</li>
+            <li>입찰정보</li>
+            <li>KAMS NOW</li>
+            <li>일자리정보</li>
+            <li>공모ㆍ기금ㆍ행사</li>
+            <li>뉴스레터</li>
+          </ul>
+        </div>
+        <div>
+          <h3>지원/신청</h3>
+          <ul>
+            <li>공모사업 안내</li>
+            <li>온라인 참가신청</li>
+            <li>예술경영컨설팅 신청</li>
+          </ul>
+        </div>
+        <div>
+          <h3>사업안내</h3>
+          <ul>
+            <li>예술현장 성장기반 조성</li>
+            <li>공연시장 활성화 지원</li>
+            <li>미술시장 활성화 지원</li>
+            <li>아트코리아랩</li>
+          </ul>
+        </div>
+        <div>
+          <h3>자료공간</h3>
+          <ul>
+            <li>알림/소식</li>
+            <li>지원/신청</li>
+            <li>사업안내</li>
+            <li>자료공간</li>
+          </ul>
+        </div>
+        <div>
+          <h3>정보공개</h3>
+          <ul>
+            <li>정보공개제도</li>
+            <li>정보공개청구</li>
+            <li>사전정보공표</li>
+            <li>공공데이터개방</li>
+            <li>정보공개자료</li>
+            <li>사업실명제</li>
+            <li>고객의 소리</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 아코디언 메뉴 -->
+  <div class="accordion" id="accordion_menu">
+    <div class="accodion_item">
+      <div class="accodion_title">기관소개</div>
+      <div class="accodion_content">
+        <ul>
+          <li>인사말</li>
+          <li>연혁</li>
+          <li>미션&비전</li>
+          <li>조직 및 업무</li>
+          <li>윤리경영</li>
+        </ul>
+      </div>
+    </div>
+    <div class="accodion_item">
+      <div class="accodion_title">알림/소식</div>
+      <div class="accodion_content">
+        <ul>
+          <li><a href="notice.html" target="_blank">공지사항</li>
+          <li>채용정보</li>
+          <li>입찰정보</li>
+          <li>KAMS NOW</li>
+          <li>일자리정보</li>
+          <li>공모ㆍ기금ㆍ행사</li>
+          <li>뉴스레터</li>
+        </ul>
+      </div>
+    </div>
+    <div class="accodion_item">
+      <div class="accodion_title">지원/신청</div>
+      <div class="accodion_content">
+        <ul>
+          <li>공모사업 안내</li>
+          <li>온라인 참가신청</li>
+          <li>예술경영컨설팅 신청</li>
+        </ul>
+      </div>
+    </div>
+    <div class="accodion_item">
+      <div class="accodion_title">사업안내</div>
+      <div class="accodion_content">
+        <ul>
+          <li>예술현장 성장기반 조성</li>
+          <li>공연시장 활성화 지원</li>
+          <li>미술시장 활성화 지원</li>
+          <li>아트코리아랩</li>
+        </ul>
+      </div>
+    </div>
+    <div class="accodion_item">
+      <div class="accodion_title">자료공간</div>
+      <div class="accodion_content">
+        <ul>
+          <li>알림/소식</li>
+          <li>지원/신청</li>
+          <li>사업안내</li>
+          <li>자료공간</li>
+        </ul>
+      </div>
+    </div>
+    <div class="accodion_item">
+      <div class="accodion_title">정보공개</div>
+      <div class="accodion_content">
+        <ul>
+          <li>정보공개제도</li>
+          <li>정보공개청구</li>
+          <li>사전정보공표</li>
+          <li>공공데이터개방</li>
+          <li>정보공개자료</li>
+          <li>사업실명제</li>
+          <li>고객의 소리</li>
+        </ul>
+      </div>
+    </div>
+    <div class="accodion_item">
+      <div class="accodion_title"><a href="login.html">로그인</a></div>
+    </div>
+  </div>
+  <section class="login">
+    <!-- breadcrumb -->
+    <div class="breadcrumb">
+      <i class="fa-solid fa-house"></i>
+      <span> > 알림/소식 > 공지사항</span>
+    </div>
+    <div class="logins">
+      <div class="membership">
+        <ul>
+          <h4>알림/소식</h4>
+          <li><a href="#none">공지사항</a></li>
+          <li><a href="#none">채용정보</a></li>
+          <li><a href="#none">입찰정보</a></li>
+          <li><a href="#none">KAMS Now</a></li>
+          <li><a href="#none">일자리 정보</a></li>
+          <li><a href="#none">공모ㆍ기금ㆍ행사</a></li>
+          <li><a href="#none">뉴스레터</a></li>
+        </ul>
+      </div>
+      <div class="notice_list">
+        <h2>공지사항</h2>
+        <!-- 페이지네이션 -->
+        <table id="my-table" >
+          <thead>
+            <tr>
+              <th>번호</th>
+              <th>구분</th>
+              <th>제목</th>
+              <th>작성일</th>
+              <th>조회</th>
+              <th>파일</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 성장기 기초예술 기업 지원 공모 2차 발표심사 결과 안내</div></td>
+              <td>2025-05-08</td>
+              <td>407</td>
+              <td><a href="2025 성장기 기초예술 기업 지원사업 공모 2차 심사 결과보고(홈페이지 공고).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 한국미술 해외출판 지원 공모 최종심의 결과 안내</div></td>
+              <td>2025-05-08</td>
+              <td>201</td>
+              <td><a href="2025 한국미술 해외출판 지원 공모 2차심의 결과발표.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 K-뮤지컬국제마켓 개최 안내 (6.2(월)~6.6(금)</div></td>
+              <td>2025-05-02</td>
+              <td>1040</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 「아트페어 육성지원」 사업 참여단체 2차 공모</div></td>
+              <td>2025-04-29</td>
+              <td>1387</td>
+              <td><a href="[공모요강] 2025 아트페어 육성지원 사업 2차 공모(1).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 플랫폼 후속지원 공모 결과 안내</div></td>
+              <td>2025-04-25</td>
+              <td>998</td>
+              <td><a href="2025 플랫폼 후속지원_심의결과 공고문.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 신진작가 전시 지원 면접심의 결과 안내</div></td>
+              <td>2025-04-25</td>
+              <td>930</td>
+              <td><a href="2025 신진작가 전시 지원 면접심의 결과 안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 국제공항 전시 지원 면접심의 결과 안내</div></td>
+              <td>2025-04-25</td>
+              <td>958</td>
+              <td><a href="2025 국제공항 전시 지원 면접심의 결과 안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 예술기술 융합 <수퍼 테스트베드> 지원 공모 안내</div></td>
+              <td>2025-04-24</td>
+              <td>3062</td>
+              <td><a href="2. 2025 아트코리아랩_예술기술 융합 수퍼 테스트베드 지원_공모요강(1).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 뮤지컬 전문 프로듀서 글로벌 역량 강화 프로그램 공모 심의 결과 안내</div></td>
+              <td>2025-04-22</td>
+              <td>1121</td>
+              <td><a href="심의결과공고_2025 뮤지컬 전문프로듀서 글로벌 역량 강화 프로그램.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 지역전시 활성화 사업 공모_유형2)인구감소(관심) 및 국가산단 지역 특화 전시_최종(면접)심의 결과 안내</div></td>
+              <td>2025-04-21</td>
+              <td>1370</td>
+              <td><a href="2025 지역전시활성화사업 유형2 최종(면접)심의 결과 공고문(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 차세대 작가 프로모션 전시 지원 2차 공모(~5.12.(월), 16:00)</div></td>
+              <td>2025-04-18</td>
+              <td>1895</td>
+              <td><a href="붙임1. 2025 차세대 작가 프로모션 전시 지원 2차 공모요강(2).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 공유오피스 단기입주 모집(~5.16.(금) 15:00)</div></td>
+              <td>2025-04-10</td>
+              <td>2730</td>
+              <td><a href="2025 아트코리아랩 공유오피스 단기입주 모집_공모요강(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 오사카 엑스포 계기 한국미술 특별전시</div></td>
+              <td>2025-04-02</td>
+              <td>1188</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 미술시장조사 시행 안내</div></td>
+              <td>2025-03-21</td>
+              <td>671</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 비즈센터 운영 안내</div></td>
+              <td>2025-02-05</td>
+              <td>1671</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><img src="images/notice.gif" alt=""></td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">예술가와 예술기업을 위한 <아트코리아랩> 무료 대관 이용 안내</div></td>
+              <td>2024-11-19</td>
+              <td>4308</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2134</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">(재)예술경영지원센터 근로자의 날 휴무 안내(5월 1일)</div></td>
+              <td>2025-04-30</td>
+              <td>283</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2133</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">AI시대의 예술 토론회 개최</div></td>
+              <td>2025-04-22</td>
+              <td>1156</td>
+              <td><a href="25.4.24. AI시대의 예술 토론회 개최 안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2132</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 기술융합 오픈이노베이션 지원 발표심의 결과안내</div></td>
+              <td>2025-04-22</td>
+              <td>927</td>
+              <td><a href="2025 아트코리아랩 기술융합 오픈이노베이션 지원 발표심의 결과(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2131</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 대학연계 아트&amp;테크 창업 활성화 지원 심의 결과안내</div></td>
+              <td>2025-04-21</td>
+              <td>791</td>
+              <td><a href="(공지) 2025 아트코리아랩 대학연계 아트앤테크 창업 활성화 지원 심의 결과안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2130</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 국내 아트페어 해외개최 공모사업 2차 면접심의 결과발표</div></td>
+              <td>2025-04-18</td>
+              <td>880</td>
+              <td><a href="2025 국내 아트페어 해외개최 2차 면접심의 결과발표.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            
+            <tr>
+              <td>2129</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술분야 창업도약 지원사업 공모 2차 발표심사 결과 안내</div></td>
+              <td>2025-04-17</td>
+              <td>1440</td>
+              <td><a href="공고문 2025 예술분야 창업도약 지원사업 공모 2차 발표심사 결과 안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2128</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술산업아카데미 <문화예술단체 세무·회계 담당자 교육> 수강생 모집(~4.29.(화) 14:00)</div></td>
+              <td>2025-04-15</td>
+              <td>1080</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2127</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 성장기 기초예술 기업 지원 공모 2차 발표심사 대상자 안내</div></td>
+              <td>2025-04-15</td>
+              <td>1320</td>
+              <td><a href="2025 성장기 기초예술 기업 지원 사업 공모 1차 서류심사 결과보고(홈페이지 공고용).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2126</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 미술여행 프로그램 공모 선정 결과 안내</div></td>
+              <td>2025-04-15</td>
+              <td>1120</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2125</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025-2026 한국미술 집중조망 프로젝트 공모 1차심의 결과 안내</div></td>
+              <td>2025-04-14</td>
+              <td>764</td>
+              <td><a href="2025-2026 한국미술 집중조망 프로젝트 공모 1차심의 결과 안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2124</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술분야 초기창업 지원사업 2차 발표심사 결과 안내</div></td>
+              <td>2025-04-14</td>
+              <td>1385</td>
+              <td><a href="공고문 2025 예술분야 초기창업 지원사업 공모 2차 발표심사 결과 안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2123</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술산업아카데미 온라인 교육 5월 수강생 모집(~4.28.(월) 14:00)</div></td>
+              <td>2025-04-14</td>
+              <td>940</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2122</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술산업아카데미 창업교육 <아트비즈니스챌린지 8기> 수강생 모집(~4.29.(화) 14:00)</div></td>
+              <td>2025-04-11</td>
+              <td>1347</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2121</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 멤버십 기업 및 단체 모집 심의 결과안내</div></td>
+              <td>2025-04-11</td>
+              <td>768</td>
+              <td><a href="2025 아트코리아랩 멤버십 기업·단체 모집 심의 결과(2).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2120</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 기술융합 오픈이노베이션 지원 서류심의 결과안내</div></td>
+              <td>2025-04-11</td>
+              <td>782</td>
+              <td><a href="2025 아트코리아랩 기술융합 오픈이노베이션 지원 서류심의 결과.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2119</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 한국미술 비평문 번역지원 공모 심의 결과 안내</div></td>
+              <td>2025-04-09</td>
+              <td>682</td>
+              <td><a href="2025 한국미술 비평문 번역지원 공모 심의 결과발표(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2118</td>
+              <td><p>마감</p></td>
+              <td><div class="ellipsis">2025 예술로 투자 - IR 컨설팅 및 투자상담회 참가기업 모집(~5.2.(금) 18:00)</div></td>
+              <td>2025-04-09</td>
+              <td>1692</td>
+              <td><a href="(안내문) 2025 예술로 투자 - IR 컨설팅 및 투자상담회 참가기업 모집(0).pdf"> <img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2117</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 신진작가 전시 지원 공모 서류심의 결과 안내</div></td>
+              <td>2025-04-08</td>
+              <td>1119</td>
+              <td><a href="2025 신진작가 전시 지원 공모 서류심의 결과 안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2116</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 국제공항 전시 지원 공모 서류심의 결과안내</div></td>
+              <td>2025-04-08</td>
+              <td>1233</td>
+              <td><a href="2025 국제공항 전시 지원 공모 서류심의 결과 안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2115</td>
+              <td><p>마감</p></td>
+              <td><div class="ellipsis">[접수마감] 2025 예술로 투자 - 자금조달의 이해 교육 참가기업 모집</div></td>
+              <td>2025-04-08</td>
+              <td>1364</td>
+              <td><a href="(안내문) 2025 예술로 투자 - 자금조달의 이해 교육 참가기업 모집(0).pdf"> <img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2114</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 국내 아트페어 해외개최 공모사업 1차 서류심의 결과발표</div></td>
+              <td>2025-04-08</td>
+              <td>749</td>
+              <td><a href="2025 국내 아트페어 해외개최 공모사업 1차 서류심의 결과발표.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2113</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 차세대 작가 프로모션 전시 지원 공모 선정 결과 안내</div></td>
+              <td>2025-04-08</td>
+              <td>597</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2112</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 한국미술 해외출판 지원 공모 1차심의 결과 안내</div></td>
+              <td>2025-04-07</td>
+              <td>587</td>
+              <td><a href="2025 한국미술 해외출판 지원 공모 1차심의 결과 발표공고(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2111</td>
+              <td><p>마감</p></td>
+              <td><div class="ellipsis">2025 서울아트마켓 팸스피칭(PAMS Pitching) 공모(~4.22.(화) 17:00)</div></td>
+              <td>2025-04-07</td>
+              <td>2803</td>
+              <td><a href="(양식) 2025 서울아트마켓 팸스피칭 지원신청서(1).hwp"><img src="images/hwp.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2110</td>
+              <td><p>마감</p></td>
+              <td><div class="ellipsis">2025 서울아트마켓 팸스초이스(PAMS Choice) 공모(~4.22.(화) 17:00)</div></td>
+              <td>2025-04-07</td>
+              <td>5676</td>
+              <td><a href="(양식_쇼케이스) 2025 서울아트마켓 팸스초이스(쇼케이스) 지원신청서(1).hwp"><img src="images/hwp.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2109</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 지역전시 활성화 사업 공모_유형2)인구감소(관심) 및 국가산단 지역 특화 전시_서류심의 결과 안내</div></td>
+              <td>2025-04-07</td>
+              <td>1111</td>
+              <td><a href="2025지역전시활성화사업_유형2 서류심의 결과공고문(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2108</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술대학 취업역량 교육 개발 지원사업 공모(~4.28.(월) 18:00)</div></td>
+              <td>2025-04-07</td>
+              <td>1672</td>
+              <td><a href="붙임1. 2025 예술대학 취업역량 교육 개발 지원사업 공모 요강(최종).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2107</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 예술기술 신규분야 개척 지원 발표심의 결과안내</div></td>
+              <td>2025-04-07</td>
+              <td>723</td>
+              <td><a href="2025 아트코리아랩 예술기술 신규분야 개척 지원 공모 발표심의 결과안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2106</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 장르별 시장 거점화 지원 사업 면접 심의 결과 공고</div></td>
+              <td>2025-04-04</td>
+              <td>1191</td>
+              <td><a href="2025 장르별 시장 거점화 지원 사업 면접심의 결과 공고.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2105</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 플랫폼 후속지원 공모기간 연장 안내</div></td>
+              <td>2025-04-02</td>
+              <td>1474</td>
+              <td><a href="2025 플랫폼 후속지원 연장공고.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2104</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 오사카 엑스포 계기 한국미술 특별전시 연계 컨퍼런스</div></td>
+              <td>2025-04-02</td>
+              <td>863</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2103</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 지역전시 활성화 사업공모_유형1)미술관 콘텐츠 활용 지역전시_최종 매칭결과 안내</div></td>
+              <td>2025-03-31</td>
+              <td>1555</td>
+              <td><a href="[결과공고문]2025년 미술관 콘텐츠 활용 지역전시_결과공고문(수정).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2102</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 예술기술 신규분야 개척 지원 서류심의 결과안내</div></td>
+              <td>2025-03-28</td>
+              <td>1389</td>
+              <td><a href="2025 아트코리아랩 예술기술 신규분야 개척 지원 서류심의 결과안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2101</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 장르별 시장 거점화 지원 사업 면접 심의 결과 발표 연기 공고문</div></td>
+              <td>2025-03-28</td>
+              <td>685</td>
+              <td><a href="2025 장르별 시장 거점화 지원 사업 면접 심의결과 연기 공고.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2100</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술분야 초기창업 지원사업 공모 2차 발표심사 대상자 안내</div></td>
+              <td>2025-03-28</td>
+              <td>3415</td>
+              <td><a href="[공고문] 2025 예술분야 초기창업 지원 사업 공모 2차 발표심사 대상자 안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2099</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 예술기술 융합 수퍼 테스트베드 후속지원 공모 발표심의 결과안내</div></td>
+              <td>2025-03-28</td>
+              <td>920</td>
+              <td><a href="2025 아트코리아랩 예술기술 융합 수퍼 테스트베드 후속지원 발표심의 결과안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2098</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술분야 창업도약 지원사업 공모 2차 발표심사 대상자 안내</div></td>
+              <td>2025-03-27</td>
+              <td>2538</td>
+              <td><a href="[공고문] 2025 예술분야 창업도약 지원사업 공모 2차 발표심사 대상자 안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2097</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 K-뮤지컬국제마켓 피칭 및 쇼케이스 프로그램 공모 선정 결과 안내</div></td>
+              <td>2025-03-27</td>
+              <td>1683</td>
+              <td><a href="K-뮤지컬국제마켓 피칭 및 쇼케이스 프로그램 공모 선정 결과 공고문.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            
+            <tr>
+              <td>2096</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 K-뮤지컬 영미권 중기(2개년) 개발 지원 공모 결과 안내</div></td>
+              <td>2025-03-27</td>
+              <td>849</td>
+              <td><a href="K-뮤지컬 영미권 중기(2개년) 개발 지원 공모 심의 결과 공고문.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2095</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 전속작가제 지원 사업 공모 심의 결과 안내</div></td>
+              <td>2025-03-26</td>
+              <td>2174</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2094</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 뮤지컬 전문 프로듀서 글로벌 역량 강화 프로그램 공모(~4/14(월), 정오)</div></td>
+              <td>2025-03-24</td>
+              <td>2397</td>
+              <td><a href="(공고문) 2025 뮤지컬 전문 프로듀서 글로벌 역량 강화 프로그램.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2093</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 예술기술 융합 수퍼 테스트베드 후속지원 공모 서류심의 결과안내</div></td>
+              <td>2025-03-21</td>
+              <td>1181</td>
+              <td><a href="2025 아트코리아랩 예술기술 융합 수퍼 테스트베드 후속지원 공모 서류심의 결과안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2092</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 글로벌 협력 기반 - 스페인 소나르+D 공모 발표심의 결과 안내</div></td>
+              <td>2025-03-21</td>
+              <td>775</td>
+              <td><a href="2025 아트코리아랩 스페인 소나르D 공모 발표심의 결과안내(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2091</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술산업아카데미 창업교육 <예술산업 혁신프로젝트 TEUxART>수강생 모집</div></td>
+              <td>2025-03-20</td>
+              <td>2125</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2090</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술산업아카데미 <아트비즈니스 스케치> 수강생 모집</div></td>
+              <td>2025-03-19</td>
+              <td>1832</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2089</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 KAMS ACADEMY 아비뇽 페스티벌 <임파서블 트랜스미션> 참여 공연예술인 모집(~4.6(일) 23:59)</div></td>
+              <td>2025-03-18</td>
+              <td>3955</td>
+              <td><a href="1. 참여 공연예술인 모집 안내문(6).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2088</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">「2025 원로작가 디지털 아카이빙 자료수집 연구지원」사업 공모 면접 심의 결과 안내</div></td>
+              <td>2025-03-17</td>
+              <td>1248</td>
+              <td><a href="2025「원로작가 디지털 아카이빙 자료수집·연구지원」 결과 안내 공고_최종.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2087</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 예술기술 글로벌 유통 지원 공모 심의 결과 안내</div></td>
+              <td>2025-03-17</td>
+              <td>1137</td>
+              <td><a href="심의 결과 안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2086</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 대학연계 아트테크 창업 활성화 지원 공모(~4.3(목) 14:00)</div></td>
+              <td>2025-03-17</td>
+              <td>2416</td>
+              <td><a href="(게시용) 2025 아트코리아랩 대학연계 아트앤테크 창업 활성화 지원 공모요강.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2085</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 글로벌 협력 기반 - 스페인 소나르+D 공모 서류심의 결과 안내</div></td>
+              <td>2025-03-17</td>
+              <td>877</td>
+              <td><a href="2025 아트코리아랩 글로벌 협력 기반 - 스페인 소나르D 공모 서류심의 결과안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2084</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술산업아카데미 온라인 교육 4월 수강생 모집</div></td>
+              <td>2025-03-14</td>
+              <td>2477</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2083</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">「2025 아트페어 육성지원」 면접 심의 결과 안내</div></td>
+              <td>2025-03-14</td>
+              <td>1409</td>
+              <td><a href="2025 아트페어 육성지원 공모 면접 심의 결과 안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2082</td>
+              <td><p>마감</p></td>
+              <td><div class="ellipsis">2025 플랫폼 후속지원 공모 안내</div></td>
+              <td>2025-03-13</td>
+              <td>2534</td>
+              <td><a href="2025 플랫폼 후속지원 공고문.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2081</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">「 2025 한국미술 비평지원 」 참여단체 공모 선정결과 안내</div></td>
+              <td>2025-03-11</td>
+              <td>1178</td>
+              <td><a href="2025 한국미술 비평지원 참여단체 공모 면접 심의 결과안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2080</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 기술융합 오픈이노베이션 지원 공모(~4.1.(화) 16:00)</div></td>
+              <td>2025-03-10</td>
+              <td>5598</td>
+              <td><a href="1. 2025 아트코리아랩 기술융합 오픈이노베이션_공모요강(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2079</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술산업아카데미 &lt;예술창업 특강&gt; 수강생 모집</div></td>
+              <td>2025-03-07</td>
+              <td>1860</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2078</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 성장기 기초예술 기업 지원 공모(~3.31.(월) 15:00)</div></td>
+              <td>2025-03-04</td>
+              <td>6851</td>
+              <td><a href="2025 성장기 기초예술 기업 지원 사업 공모 요강(1).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            
+            <tr>
+              <td>2077</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 글로벌 협력 기반 - 프랑스 뉴이미지 페스티벌 공모 발표심의 결과 안내</div></td>
+              <td>2025-02-28</td>
+              <td>1469</td>
+              <td><a href="1. 2025 아트코리아랩 뉴이미지 페스티벌 공모 발표심의 결과안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2076</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 한국연극 해외진출 준비지원 공모</div></td>
+              <td>2025-02-26</td>
+              <td>5137</td>
+              <td><a href="1. 2025 한국연극 해외진출 준비지원 공고문.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2075</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 멤버십 기업 및 단체 모집 (~3.26.(수))</div></td>
+              <td>2025-02-26</td>
+              <td>2948</td>
+              <td><a href="1. 2025 아트코리아랩 멤버십 기업·단체 모집 공모 요강(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2074</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 예술기술 신규분야 개척 지원 공모</div></td>
+              <td>2025-02-25</td>
+              <td>4473</td>
+              <td><a href="2025 아트코리아랩 예술기술 신규분야 개척 지원 공모요강.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2073</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 글로벌 협력 기반 - 프랑스 뉴이미지 페스티벌 공모 서류심의 결과 안내</div></td>
+              <td>2025-02-24</td>
+              <td>1257</td>
+              <td><a href="(결과안내) 2025 아트코리아랩 글로벌 협력 기반 - 프랑스 뉴이미지 페스티벌 공모 서류심의 결과안내.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2072</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 입주기업 공모 발표심의 결과 안내</div></td>
+              <td>2025-02-20</td>
+              <td>1939</td>
+              <td><a href="2025 아트코리아랩 입주기업 공모 발표심의 결과.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2071</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 장르별 시장 거점화 지원 사업 공모 안내</div></td>
+              <td>2025-02-18</td>
+              <td>4064</td>
+              <td><a href="2025 장르별 시장 거점화 지원 사업 공고문(0219)(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2070</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 글로벌 협력 기반 - 스페인 소나르+D 참여 지원 공모</div></td>
+              <td>2025-02-18</td>
+              <td>3784</td>
+              <td><a href="1. (공모요강) 2025 아트코리아랩 글로벌 협력 기반 - 소나르D 참여 지원.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2069</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 예술-기술 글로벌 유통 지원 공모</div></td>
+              <td>2025-02-18</td>
+              <td>3433</td>
+              <td><a href="1. 2025 아트코리아랩 예술기술 글로벌 유통 지원 공모요강.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2068</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술분야 창업기업 지원사업 액셀러레이터 프로그램 안내 (초기창업/창업도약)</div></td>
+              <td>2025-02-17</td>
+              <td>3608</td>
+              <td><a href="[홈페이지 게시용] 2025 예술분야 창업기업 지원사업 보육사 프로그램 소개_최종.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            
+            <tr>
+              <td>2067</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 예술기술 융합 수퍼 테스트베드 후속지원 공모(~3.6. 15시)</div></td>
+              <td>2025-02-17</td>
+              <td>2308</td>
+              <td><a href="2025 아트코리아랩 예술기술 융합 수퍼 테스트베드 후속지원_공모요강(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2066</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">예술경영지원센터 공연예술본부 2025년 온라인 사업설명회</div></td>
+              <td>2025-02-17</td>
+              <td>1685</td>
+              <td><a href="2025 예술경영지원센터 공연예술본부 사업설명회_발표자료.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2065</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 K-뮤지컬 영미권 중기(2개년) 개발 지원 공모</div></td>
+              <td>2025-02-14</td>
+              <td>1894</td>
+              <td><a href="5-1. 2025 K-뮤지컬 영미권 중기(2개년) 개발 지원 공고문(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2064</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 K-뮤지컬국제마켓 - 쇼케이스 (K-뮤지컬로드쇼 in 영미권) 공모</div></td>
+              <td>2025-02-14</td>
+              <td>2515</td>
+              <td><a href="4-1. 2025 K-뮤지컬국제마켓 쇼케이스 공고문(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2063</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 K-뮤지컬국제마켓 - 완성작품 피칭(K-뮤지컬로드쇼 in 아시아) 공모</div></td>
+              <td>2025-02-14</td>
+              <td>2062</td>
+              <td><a href="3-1. 2025 K-뮤지컬국제마켓 드리밈 피칭 완성작품 공고문(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2062</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 K-뮤지컬국제마켓 - 미완성작품 피칭(일본 글로벌 송라이터 쇼케이스) 공모</div></td>
+              <td>2025-02-14</td>
+              <td>2187</td>
+              <td><a href="2-1. 2025 K-뮤지컬국제마켓 드리밈 피칭 미완성작품 공고문(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2061</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 K-뮤지컬 해외진출 지원사업 통합 공모 안내</div></td>
+              <td>2025-02-14</td>
+              <td>2091</td>
+              <td><a href="1. K-뮤지컬 해외 진출 지원 통합 공고문.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2060</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술산업아카데미 온라인 교육 3월 수강생 모집</div></td>
+              <td>2025-02-13</td>
+              <td>2388</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2059</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 입주기업 공모 서류심의 결과 안내</div></td>
+              <td>2025-02-13</td>
+              <td>1195</td>
+              <td><a href="2025 아트코리아랩 입주기업 공모_서류심의 결과.pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2058</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 지역전시 활성화 사업공모_유형2)인구감소 및 국가산단 지역 특화 전시(~3.12., 17:00)</div></td>
+              <td>2025-02-12</td>
+              <td>6458</td>
+              <td><a href="[공모요강] 유형2_인구감소 및 국가산단 지역 특화 전시(지역전시 활성화 지원사업)(2).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2057</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 지역전시 활성화 사업공모_유형1)미술관 콘텐츠 활용 지역전시(~3.12., 17:00)</div></td>
+              <td>2025-02-12</td>
+              <td>5675</td>
+              <td><a href="(공모요강-유형1)지역전시 활성화_미술관 콘텐츠 활용 지역전시(0).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2056</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술분야 창업기업 지원 사업 액셀러레이터 공모 심의 결과보고</div></td>
+              <td>2025-02-06</td>
+              <td>862</td>
+              <td><a href="2025 예술분야 창업기업 지원 사업 창업도약 액셀러레이터 공모 심사 결과보고(홈페이지용).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2055</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 아트코리아랩 사업 설명회 개최 안내 (2.14.(금) 15:00)</div></td>
+              <td>2025-02-06</td>
+              <td>1985</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2054</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">2025 예술기업 지원사업 설명회 개최 안내</div></td>
+              <td>2025-02-05</td>
+              <td>5477</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>2053</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">[수정공고] 2025 국제공항 전시 지원 공모(~3.26.(수), 16:00)</div></td>
+              <td>2025-02-05</td>
+              <td>6757</td>
+              <td><a href="2025년 국제공항 전시 지원 공모 요강(12).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2052</td>
+              <td><span>공지</span></td>
+              <td><div class="ellipsis">[수정공고] 2025 신진작가 전시 지원 공모(~3.26.(수), 16:00)</div></td>
+              <td>2025-02-05</td>
+              <td>6403</td>
+              <td><a href="2025년 신진작가 전시 지원 사업 공모요강(3).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            <tr>
+              <td>2051</td>
+              <td><p>마감</p></td>
+              <td><div class="ellipsis">2025 전속작가제 지원 사업 공모(~3.5.(수), 17:00)</div></td>
+              <td>2025-02-05</td>
+              <td>4760</td>
+              <td><a href="1. 2025 전속작가제 지원 사업 공모요강(4).pdf"><img src="images/pdf.gif" alt=""></a></td>
+            </tr>
+            
+          </tbody>
+        </table>
+        <div class="pagination">
+          <i class="fa-solid fa-angles-left"></i>
+          <i class="fa-solid fa-angle-left"></i>
+          <ol id="numbers"></ol>
+          <i class="fa-solid fa-angle-right"></i>
+          <i class="fa-solid fa-angles-right"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 푸터 -->
+  <footer>
+    <div class="footImg">
+      <div class="texts">
+        <a href="#none">개인정보처리방침</a>
+        <a href="#none">관련 사이트<img src="images/arrow.png" alt="" class="arrow"></a>
+      </div>
+      <div class="imges">
+        <img src="images/footer_1.png" alt="">
+        <img src="images/footer_2.png" alt="">
+        <img src="images/footer_3.png" alt="">
+        <img src="images/footer_4.png" alt="">
+        <img src="images/footer_5.png" alt="">
+        <img src="images/footer_6.jpg" alt="">
+      </div>
+    </div>
+    <div class="copy_line">
+      <div class="copy">
+        <a href="#none"><img src="images/Logo.jpg" alt=""></a>
+        <div class="copyright">
+          <div class="address">(03082) 서울시 종로구 대학로 57 (연건동) 홍익대학교 대학로 캠퍼스 교육동 3층, 12층 TEL : 02-708-2244 정보공개책임관 :
+            기획경영본부장
+            김범훈(02-708-2210) 정보공개담당 : 경영지원팀 강한솔(02-708-2207)</div>
+          <div class="call">
+            <div class="email">webmaster@gokams.or.kr</div>
+            <div class="phone">© www.gokams.or.kr All Reserved.</div>
+          </div>
+        </div>
+        <div class="social">
+          <img src="images/footer_7.png" alt="">
+          <img src="images/footer_8.png" alt="">
+          <img src="images/footer_9.gif" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/custom.js"></script>
+  <script src="js/notice.js"></script>
+</body>
+</html>
