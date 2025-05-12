@@ -835,7 +835,7 @@ footer{
 .qmenu_wrap a:nth-child(4) img{margin-left: 43px;}
 .qmenu_call{margin-top: 15px;}
 .qna{display: flex; justify-content: center;}
-.top_btn1{display: flex; justify-content: center; align-items: center; margin: 15px auto 0; margin-top: 15px; width: 45px; height: 45px;}
+.top_btn1 a{display: flex; justify-content: center; align-items: center; margin: 15px auto 0; margin-top: 15px; width: 45px; height: 45px;}
 .top_btn2{display: none;}
 /* 반응형구간 */
 @media (max-width:768px) {
