@@ -700,6 +700,7 @@ list-style: inside;}
 .bus .road_img{background-position: -238px -275px; margin-left: 30px;}
 .way p{font-size: var(--font-large); font-weight: bold;}
 .way span{display: none;}
+.trans{text-indent: 4.2rem;}
 .station_wrap{display: grid; grid-template-columns: auto auto;}
 .station {
   width: 230px;
@@ -897,7 +898,6 @@ footer{
     transition: right 1s ease-out;
     border: 1px solid var(--gray);
   } 
-  .accodion_item{border-bottom: 1px solid rgb(133, 115, 115);}
   .login_button{
     display: flex;
     flex-direction: row;
@@ -917,20 +917,21 @@ footer{
   .login_button>p:hover{
     background-color: #bed8c1a9;
   }
-  .accodion_title{
+  .accordion_title{
+    border-bottom: 1px solid rgb(133, 115, 115);
     padding: 1.5rem 1rem; 
     font-size: 18px; 
     background: var(--light-yellow); 
     cursor: pointer;
   }
-  .accodion_title:hover{background-color: rgb(255, 255, 157);font-weight: bold;}
-  .accodion_content{display: none; background: var(--white);}
-  .accodion_content.active{display: block;}
-  .accodion_content ul li{ 
+  .accordion_title:hover{background-color: rgb(255, 255, 157);font-weight: bold;}
+  .accordion_content{display: none; background: var(--white);}
+  .accordion_content.active{display: block;}
+  .accordion_content ul li{ 
     border-bottom: 1px dashed var(--gray); 
     cursor: pointer; padding: 0.8rem;
   }
-  .accodion_content ul li:hover{font-weight: bold;}
+  .accordion_content ul li:hover{font-weight: bold;}
   /* 아이콘 */
   .icon_wrap{display: none;}
   .icon_wrap2{
@@ -938,9 +939,10 @@ footer{
     width: 100%;
     height: 150px;
     display: flex;
+    
   }
-  .swiper_wrap{position: relative;  width: 100%;}
-  .iconSwiper{width: 75%;}
+  .swiper_wrap{position: relative;  width: 100%; }
+  .iconSwiper{width: 80%; padding-left: 13px;}
   .iconSwiper .swiper-wrapper{margin: 20px auto; width: 100%;}
   .iconSwiper .swiper-slide{
     transition: 1s;
@@ -948,7 +950,7 @@ footer{
     overflow: visible;
     position: relative;
     z-index: 1;
-    border-radius: 0 20px 0 20px
+    border-radius: 20px;
   }
   .iconSwiper .icon{
     border-radius: 20px;
@@ -1153,6 +1155,7 @@ footer{
     color: var(--main-green);
   }
   .bus .way span{margin-left: 32px;}
+  .trans{text-indent: 4rem;}
   .station{width: auto;  margin-left: 20px; }
   .station h4{font-size: var(--font-large);}
   /* 푸터 */
