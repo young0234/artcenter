@@ -194,7 +194,7 @@ function setupScrollListener() {
 mediaQuery.addListener(setupScrollListener);
 setupScrollListener();
 
-/* 전체 메뉴바 */
+/* 아코디언 */
 function initAccordionMenu() {
   let menuIcon = document.querySelector('.menu_icon');
   let accordionMenu = document.querySelector('.accordion');
@@ -206,7 +206,7 @@ function initAccordionMenu() {
     } else {
       accordionMenu.style.display = 'block';
       setTimeout(() => {
-        accordionMenu.style.right = '0'; 
+        accordionMenu.style.right = '0';
       }, 10);
     }
   });
@@ -223,7 +223,12 @@ function initAccordionMenu() {
   });
   window.addEventListener('resize', function () {
     if (window.innerWidth > 768) {
-      accordionMenu.style.display = 'none'; 
+      accordionMenu.style.display = 'none';
+      accordionMenu.style.right = '-250px';
+    }
+  });
+  window.addEventListener('scroll', function () {
+    if (window.innerWidth <= 768 && accordionMenu.style.right === '0px') {
       accordionMenu.style.right = '-250px';
     }
   });
@@ -231,6 +236,6 @@ function initAccordionMenu() {
 document.addEventListener('DOMContentLoaded', function () {
   initAccordionMenu();
 });
-console.log(document.querySelectorAll('.accordion_title').length);
+
 /* aos */
 AOS.init();

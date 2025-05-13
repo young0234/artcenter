@@ -34,43 +34,44 @@ function displayRow(idx){
   numberBtn[idx].classList.add('active')
 };
 /* 아코디언 */
-document.addEventListener('DOMContentLoaded', function () {
-  const accordionTitles = document.querySelectorAll('.accordion_title');
-  const accordionContents = document.querySelectorAll('.accordion_content');
-  accordionTitles.forEach(title => {
-    title.addEventListener('click', function () {
+function initAccordionMenu() {
+  let menuIcon = document.querySelector('.menu_icon');
+  let accordionMenu = document.querySelector('.accordion');
+  if (!menuIcon || !accordionMenu) return;
+  menuIcon.addEventListener('click', function () {
+    if (window.innerWidth > 768) return;
+    if (accordionMenu.style.right === '0px') {
+      accordionMenu.style.right = '-250px';
+    } else {
+      accordionMenu.style.display = 'block';
+      setTimeout(() => {
+        accordionMenu.style.right = '0';
+      }, 10);
+    }
+  });
+  document.querySelectorAll('.accordion_title').forEach(item => {
+    item.addEventListener('click', function () {
       let content = this.nextElementSibling;
-      accordionContents.forEach(otherContent => {
-        if (otherContent !== content) {
-          otherContent.classList.remove('active');
+      document.querySelectorAll('.accordion_content.active').forEach(activeContent => {
+        if (activeContent !== content) {
+          activeContent.classList.remove('active');
         }
       });
       content.classList.toggle('active');
     });
   });
-  let menuIcon = document.querySelector('.menu_icon');
-  let accordionMenu = document.querySelector('.accordion');
-  
-  if (menuIcon && accordionMenu) {
-    menuIcon.addEventListener('click', function () {
-      if (window.innerWidth <= 768) { 
-        if (accordionMenu.style.right === '0px') {
-          accordionMenu.style.right = '-250px';
-        } else {
-          accordionMenu.style.display = 'block';
-          setTimeout(() => {
-            accordionMenu.style.right = '0'; 
-          }, 10);
-        }
-      }
-    });
-  }
   window.addEventListener('resize', function () {
     if (window.innerWidth > 768) {
-      if (accordionMenu) {
-        accordionMenu.style.display = 'none'; 
-        accordionMenu.style.right = '-250px';
-      }
+      accordionMenu.style.display = 'none';
+      accordionMenu.style.right = '-250px';
     }
   });
+  window.addEventListener('scroll', function () {
+    if (window.innerWidth <= 768 && accordionMenu.style.right === '0px') {
+      accordionMenu.style.right = '-250px';
+    }
+  });
+}
+document.addEventListener('DOMContentLoaded', function () {
+  initAccordionMenu();
 });
