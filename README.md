@@ -1,7 +1,7 @@
 
-#  🌲🌲🌲**공공기관 리뉴얼**식장산🌲🌲🌲
+#  🎨 예술경영지원센터 웹사이트 리뉴얼 프로젝트
 
-## 작업자 : 홍길동
+## 작업자 : 박서영
 
 ## 제작 기간
 -30시간
@@ -9,9 +9,17 @@
 ## ⭐️ 프로젝트 설명
 
 ### 메인 페이지 
-- 대표 기능: 메인 페이지에서 사용한 핵심 기능을 나열. 예를 들어, 슬라이더, 주요 공지사항, 배너 등.
-- 사용자 인터페이스: 사용자가 메인 페이지에서 처음으로 접하는 인터페이스의 특징과 핵심 기능들.
-- 검색 및 네비게이션 기능: 사용자가 원하는 정보를 쉽게 찾을 수 있도록 돕는 기능들.
+- 대표 기능
+  -메인비주얼 섹션에 문화가 있는 날 D-day 카운트다운 기능
+  -카드형 뉴스 콘텐츠 및 공지사항 탭 기능
+  -사업소개 탭 전환, 발간자료 슬라이드, 오시는 길 안내 지도 포함
+- UI 특징
+  -메인 영역에 직관적인 와이드 이미지 배치
+  -사용자 접근성 향상을 위한 아이콘 중심 인터페이스
+  -최신 공지 및 뉴스, 사업정보를 한눈에 볼 수 있도록 구성
+- 검색/네비게이션
+  -상단 메뉴바로 각 섹션 간 이동 가능
+  -최신 뉴스, 자료실 등을 쉽게 찾을 수 있도록 분류
 
 ### 서브 페이지 기능
 
@@ -20,10 +28,16 @@
 
 ## 💻 개발 환경
 
-- 개발 환경 : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
-- 사용 프로그램 : <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>  <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
-- 사용된 기술 :
-  <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=Swiper&logoColor=white">
+-개발 환경:
+<img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
+-사용 프로그램:
+<img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+-사용된 기술:
+<img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=Swiper&logoColor=white"/>
 
 
 
