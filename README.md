@@ -130,7 +130,7 @@
 
 ## 🚀 링크
 
-- [🔗 기획안 보기](https://www.figma.com/design/ImRE0J6im2BMgnxrXQ7Fsz/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80%EB%A6%AC%EB%89%B4%EC%96%BC_%EB%B0%95%EC%84%9C%EC%98%81?node-id=1-6&m=dev&t=RHWFTcaEK6r6dOuV-1)
-- [🎨 디자인 시안](#)
-- [🌐 DEMO 페이지](#)
+- [🔗 기획안 보기](#)
+- [🎨 디자인 시안](https://www.figma.com/design/ImRE0J6im2BMgnxrXQ7Fsz/%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80%EB%A6%AC%EB%89%B4%EC%96%BC_%EB%B0%95%EC%84%9C%EC%98%81?node-id=1-6&m=dev&t=RHWFTcaEK6r6dOuV-1)
+- [🌐 DEMO 페이지](https://young0234.github.io/artcenter/)
 
