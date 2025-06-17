@@ -6,8 +6,6 @@
 **박서영, Park seo young**  
 
 <br/>
-<br/>
-<br/>
 
 #### **Schedule** 
 > **30시간**
