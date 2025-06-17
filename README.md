@@ -10,14 +10,7 @@
 <br/>
 
 #### **Schedule** 
-> **2025.05.12 - 2025.06.09. (5h - 6h, weekdays only)**
-
-</br>
-
-> 1. Planning: 2025.05.12. - 2025.05.21.  
-> 2. Design: 2025.05.19. - 2025.05.23.  
-> 3. Development: 2025.05.26. - 2025.06.09.
-> 4. Translate: 2025.06.02 - 2025. 06.08.
+> **30시간**
 
 <br/>
 <br/>
@@ -41,11 +34,6 @@
 ### 1.1. 작업 배경
 이 프로젝트는 예술경영지원센터 공식 웹사이트를 사용자 중심의 인터페이스로 리디자인한 웹 리뉴얼 작업입니다.
 기존 사이트의 정보 과잉, 비직관적인 UI를 개선하고자 탭 UI, 슬라이드 콘텐츠, D-day 카운터 등 다양한 기능을 도입하였습니다.   
-</br>
-이 프로젝트의 목적은 다음과 같다.   
-1. '스튜디오 지브리'라는 브랜드의 이미지를 구체화하고 싶다.
-2. 공식 정보뿐만 아니라, 문화 콘텐츠까지 전달하는 포털 역할을 하고 싶다.
-3. 일본 국내 팬뿐만 아니라, 전세계 팬들이 쉽게 접근할 수 있는 글로벌 사이트를 만들고 싶다.
 
 </br>
 </br>
@@ -55,7 +43,7 @@
 
 ## 2. 파일 구성
 ```
-🌱 WebRedesign-StudioGhibli   
+🌱 artcenter  
  ┣ 📂 fonts   
  ┣ 📂 images     
  ┣ 📂 css    
@@ -159,25 +147,21 @@
   <img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
 
 2.  **사용 프로그램**  
-  <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
-  <img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vs code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/><img src="https://img.shields.io/badge/figma-F24E1E?style=flat-square&logo=figma&logoColor=white"/>
 
 3.  **사용 기술**  
-  <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=Swiper&logoColor=white"/>
+  <img src="https://img.shields.io/badge/html5-E34F26?style=flat-square&logo=html5&logoColor=white"/><img src="https://img.shields.io/badge/css3-1572B6?style=flat-square&logo=css3&logoColor=white"/><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/><img src="https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=Swiper&logoColor=white"/>
     
     
 4.  **작업 해상도**   
-    3.1.  PC 기준 1920X1080  
-    3.2.  반응형 대응 768px
+    4.1.  PC 기준 1920X1080  
+    4.2.  반응형 대응 768px
     
     </br>
     
 5.  **윈도우 버전**   
-    4.1.  Window 10   
-    4.2.  Window 11   
+    5.1.  Window 10   
+    5.2.  Window 11   
 
 </br>
 </br>
