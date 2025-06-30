@@ -139,7 +139,7 @@
 
 ---
 
-## 4. 개발 환경
+## 4. 작업 환경
 
 1. **개발 환경**  
    <img src="https://img.shields.io/badge/windows10-0078D6?style=flat-square&logo=windows10&logoColor=white"/>
